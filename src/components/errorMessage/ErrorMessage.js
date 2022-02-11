@@ -1,15 +1,15 @@
 import img from './error.gif'
-const ErrorMassage = () => {
+const ErrorMessage = () => {
     return (
         <img style={{ display: 'block',  height: '250px', objectFit: 'containe', margin:'0 auto'}} src={img}  alt='error'/>
     )
 }
 
-export default ErrorMassage;
+export default ErrorMessage;
 
 
 
-// const ErrorMassage = () => {
+// const ErrorMessage = () => {
 //     return (
 //         <igm src={process.env.PUBLIC_URL + '/error.gif'}/>
 //     )
