@@ -54,7 +54,6 @@ componentWillUnmount() {
         .catch(this.onError)
  }
 
-
     render() {
         const {char, loading, error} = this.state;
         const errorMessage = error ? <ErrorMessage/> : null;
@@ -83,9 +82,8 @@ componentWillUnmount() {
             </div>
         )
     }
-
-    
 }
+
 const View = ({char}) => {
 const {name, description, thumbnail, homepage, wiki} = char;
 let imgStyle = {'objectFit' : 'cover'};
